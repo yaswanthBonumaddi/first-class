@@ -4,7 +4,7 @@
 	"description": "My first godspeed project.",
 	"main": "dist/index.js",
 	"scripts": {
-		"gen-crud-api": "npx @godspeedsystems/api-generator",
+		"gen-crud-api":  "npx @godspeedsystems/api-generator",
 		"dev": "run-script-os",
 		"dev:win32": "nodemon --watch src -e ts,js,yaml,json -r dotenv src\\index.ts",
 		"dev:darwin:linux": "nodemon --watch src -e ts,js,yaml,json -r dotenv ./src/index.ts",
